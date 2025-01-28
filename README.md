@@ -77,10 +77,6 @@ Pedi ao ChatGPT algumas ideias para aplicar os padrões, então aqui estão:
 **Cenário**: Você está criando um jogo de estratégia baseado em turnos onde as unidades podem estar em diferentes estados (inativo, movendo, atacando, etc.), e o comportamento delas muda conforme o estado.
 **Ideia**: Use o padrão State para permitir que a unidade altere seu comportamento com base no estado atual, sem precisar de uma série de condicionais.
 
-#### Strategy
-**Cenário**: Você está criando uma aplicação para calcular custos de envio. A estratégia de cálculo pode variar dependendo do destino, peso e método de entrega (ex.: expresso, padrão, econômico).
-**Ideia**: Use o padrão Strategy para permitir que o cliente escolha diferentes estratégias de cálculo de custos de envio dinamicamente.
-
 #### Template Method
 **Cenário**: Você está criando um framework de web onde diferentes tipos de páginas (página inicial, página de produto, página de checkout) exigem diferentes sequências de etapas (ex.: buscar dados, renderizar UI, tratar envio de formulário).
 **Ideia**: Use o padrão Template Method para definir o esqueleto do processo, permitindo que subclasses sobrescrevam etapas específicas (ex.: buscar dados), mas mantendo outras etapas (como renderizar) constantes.
